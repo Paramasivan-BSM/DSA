@@ -57,7 +57,11 @@ public class Cqueue extends Root{
 
     @Override
     public boolean isEm() {
-        // TODO Auto-generated method stub
+        if (stack.length == 0 || stack == null) {
+
+            return true;
+            
+        }
         return false;
     }
 
